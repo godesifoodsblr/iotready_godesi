@@ -104,7 +104,6 @@ required_apps = ["erpnext"]
 # Hook on document methods and events
 
 doc_events = {
-    "Warehouse": {"before_save": "iotready_godesi.doc_hooks.warehouse_before_save"},
 }
 
 # Scheduled Tasks
